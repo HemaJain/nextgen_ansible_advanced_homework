@@ -9,7 +9,7 @@
     tags:
       - osp.smoke
   - debug :
-    msg: " {{  openstack_info }} "
+      msg: " {{  openstack_info }} "
 
   - name: Curl website
     uri:
