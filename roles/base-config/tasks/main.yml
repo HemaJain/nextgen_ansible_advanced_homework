@@ -9,6 +9,15 @@
     backup: yes
 
 - name: enable repos
+  yum:
+      name: https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+      state: present 
  
 - name: install base tools and packages
+  yum:
+      name:
+        - python-pip
+        - gcc
+      state: latest
+
 
