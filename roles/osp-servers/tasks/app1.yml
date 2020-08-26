@@ -5,7 +5,7 @@
     name: app1
     image: rhel-guest
     meta: group=apps,deployment_name=dev
-    flavor: m2.small
+    flavor: os_nova_flavor
     security_groups: app_servers 
     key_name: ansible_ssh
     wait: yes
