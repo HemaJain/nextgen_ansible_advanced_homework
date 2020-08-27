@@ -9,9 +9,13 @@
     backup: yes
 
 - name: enable repos
-  yum:
-      name: https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
-      state: present 
+  yum_repository:
+    name: epel
+    description: EPEL YUM repo
+    file: external_repos
+    baseurl: https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+    gpgcheck: no
+  
  
 - name: install base tools and packages
   yum:
