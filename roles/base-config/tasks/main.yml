@@ -8,13 +8,14 @@
     replace: 'Defaults  !requiretty'
     backup: yes
 
-- name: enable repos
-  yum_repository:
-    name: epel
-    description: EPEL YUM repo
-    file: external_repos
-    baseurl: https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
-    gpgcheck: no
+#- name: enable repos
+ # yum_repository:
+  #  name: epel
+   
+# description: EPEL YUM repo
+ #   file: external_repos
+  #  baseurl: https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+   # gpgcheck: no
   
  
 - name: install base tools and packages
