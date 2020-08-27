@@ -5,8 +5,8 @@
     name: app1
     image: rhel-guest
     meta: group=apps,deployment_name=dev
-    flavor: os_nova_flavor
-    security_groups: app_servers 
+    flavor: m1.medium
+    security_groups: apps 
     key_name: ansible_ssh
     wait: yes
     nics:
