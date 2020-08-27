@@ -5,7 +5,7 @@
     image: rhel-guest
     meta: group=frontends,deployment_name=dev
     flavor: m1.medium
-    security_groups: frontend_servers 
+    security_groups: frontend 
     key_name: ansible_ssh
     wait: yes
     nics:
