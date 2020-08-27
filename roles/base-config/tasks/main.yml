@@ -13,7 +13,7 @@
     name: epel
     description: EPEL YUM repo
     file: external_repos
-    baseurl: https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+    baseurl: http://192.0.2.253/repos/ansible-2.8-for-rhel-8-x86_64-rpms
     gpgcheck: no
   
  
