@@ -65,7 +65,7 @@
   yum:
       name:
         - python-pip
-        - gcc
+       # - gcc
       state: present
 
 
