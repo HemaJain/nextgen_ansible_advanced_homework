@@ -67,5 +67,6 @@
         - python-pip
         - gcc
       state: latest
+      ignore_errors: yes
 
 
