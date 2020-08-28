@@ -23,6 +23,6 @@
     loop: "{{ openstack_info.openstack_servers }}"
     register: qa_webpage
     ignore_errors: yes
-     tags:
+    tags:
       - osp.smoke
   
