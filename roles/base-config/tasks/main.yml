@@ -56,7 +56,8 @@
     name: epel
     description: EPEL YUM repo
     file: external_repos
-    baseurl: https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+    baseurl: http://download.fedoraproject.org/pub/epel/7/$basearch
+    mirrorlist: https://mirrors.fedoraproject.org/metalink?repo=epel-7&arch=$basearch
     gpgcheck: no
   
  
